@@ -42,7 +42,9 @@ footer {
 }
 
 .container-row {
+    width: 500px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -52,4 +54,10 @@ footer {
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+
 }
