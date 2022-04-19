@@ -47,7 +47,7 @@ footer {
 
 #game {
     width: 525px;
-    height: 560px;
+    height: 625px;
     background-color: white;
     border-right: 4px outset var(--cadet-blue);
     border-bottom: 4px inset var(--cadet-blue);
@@ -56,7 +56,8 @@ footer {
 }
 
 .container-col {
-    width: 500px;
+    width: 33px;
+    height: 635px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

@@ -20,7 +20,7 @@ const startGame = document.getElementsByTagName('button');
 function buildGameGrid(){
     for(var i = 0; i < 16; i++){
         gameGrid.innerHTML +='<div class="container-col"></div>\n';
-        for(var j = 0; j < 16; j++){
+        for(var j = 0; j < 20; j++){
             gameContainers[i].innerHTML += '<div class="square"></div>\n';
         }
     }
