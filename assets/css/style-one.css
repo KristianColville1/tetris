@@ -1,4 +1,16 @@
 /*********************************************Defaults*/
+:root {
+    --cg-blue: #247ba0ff;
+    --cadet-blue: #4a9eaaff;
+    --green-sheen: #70c1b3ff;
+    --middle-blue-green: #91ceb9ff;
+    --turquoise-green: #b2dbbfff;
+    --tea-green: #d3edbeff;
+    --cream: #f3ffbdff;
+    --peach-crayola: #f6c5a3ff;
+    --light-coral: #f98b89ff;
+    --radical-red: #ff1654ff;
+}
 
 * {
     margin: 0;
@@ -21,7 +33,7 @@ footer {
     width: 800px;
     max-width: 92vw;
     height: 650px;
-    background-color: red;
+    background-color: var(--cg-blue);
     border: 2px solid black;
     position: absolute;
     top: 50%;
