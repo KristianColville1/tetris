@@ -2,6 +2,7 @@ const gameGrid = document.getElementById('game');
 const gameContainers = document.getElementsByClassName('container-col');
 const startGame = document.getElementsByTagName('button');
 
+
 /**
  * @name removeGameGrid
  * @description Removes the game grid on each start of new game.

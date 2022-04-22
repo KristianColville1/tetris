@@ -35,6 +35,8 @@ main {
 
 .float-left { float: left;}
 .float-right { float: right;}
+.vis-hidden { visibility: hidden;}
+.dis-hidden { display: none;}
 
 /*******************************************Footer*/
 
@@ -67,15 +69,16 @@ i {
     color: white;
     font-size: 2rem;
     padding: 10px;
+    cursor: pointer;
 }
 
 i:hover {
     color: var(--light-coral);
-    cursor: pointer;
 }
 
 /*********************************************Game*/
-#game-container {
+#game-container,
+#start-menu {
     width: 800px;
     max-width: 92vw;
     height: 626px;
@@ -115,7 +118,7 @@ i:hover {
 }
 
 button {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
 }
