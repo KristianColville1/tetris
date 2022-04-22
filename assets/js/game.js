@@ -18,9 +18,9 @@ const startGame = document.getElementsByTagName('button');
  * @description Builds the game grid using HTML elements for the cells.
  */
 function buildGameGrid(){
-    for(var i = 0; i < 16; i++){
+    for(var i = 0; i < 12; i++){
         gameGrid.innerHTML +='<div class="container-col"></div>\n';
-        for(var j = 0; j < 20; j++){
+        for(var j = 0; j < 19; j++){
             gameContainers[i].innerHTML += '<div class="square"></div>\n';
         }
     }
