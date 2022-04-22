@@ -20,6 +20,12 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
     background: url('../images/background.jpg') no-repeat center;
     background-position: center;
     background-size: cover;
@@ -27,18 +33,53 @@ body {
     background-blend-mode: soft-light;
 }
 
+.float-left { float: left;}
+.float-right { float: right;}
+
+/*******************************************Footer*/
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 800px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+.copyright {
+    color: white;
+    font-size: 1rem;
+}
+i {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+i:hover {
+    color: var(--light-coral);
+    cursor: pointer;
 }
 
 /*********************************************Game*/
 #game-container {
     width: 800px;
     max-width: 92vw;
-    height: 650px;
-    border: 15px inset var(--cadet-blue);
+    height: 626px;
+    border: 15px outset var(--green-sheen);
     position: absolute;
     top: 50%;
     left: 50%;
