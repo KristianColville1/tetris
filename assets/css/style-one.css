@@ -20,6 +20,11 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background: url('../images/background.jpg') no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--cg-blue);
+    background-blend-mode: soft-light;
 }
 
 
@@ -33,8 +38,7 @@ footer {
     width: 800px;
     max-width: 92vw;
     height: 650px;
-    background-color: var(--tea-green);
-    border: 1px solid var(--cadet-blue);
+    border: 15px inset var(--cadet-blue);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,9 +52,6 @@ footer {
 #game {
     width: 525px;
     height: 625px;
-    background-color: white;
-    border-right: 4px outset var(--cadet-blue);
-    border-bottom: 4px inset var(--cadet-blue);
     display: flex;
     flex-wrap: nowrap;
 }
@@ -66,7 +67,7 @@ footer {
 .square {
     width: 31px;
     height: 31px;
-    border: 1px solid black;
+    border: 1px solid var(--cream);
     border-radius: 9%;
     display: flex;
     flex-wrap: wrap;
@@ -75,4 +76,5 @@ footer {
 button {
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
